@@ -3,6 +3,19 @@
     <apiVersion>65.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <assignments>
+        <name>Assign_Account_Industry</name>
+        <label>Assign Account Industry</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Industry</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Education</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
         <name>Assign_Account_Name</name>
         <label>Assign Account Name</label>
         <locationX>0</locationX>
@@ -14,6 +27,9 @@
                 <elementReference>$Record.Name</elementReference>
             </value>
         </assignmentItems>
+        <connector>
+            <targetReference>Assign_Account_Industry</targetReference>
+        </connector>
     </assignments>
     <environments>Default</environments>
     <interviewLabel>Account Before Save Flow {!$Flow.CurrentDateTime}</interviewLabel>
