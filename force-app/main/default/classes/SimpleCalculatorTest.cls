@@ -7,5 +7,5 @@ public class SimpleCalculatorTest {
         Integer result = SimpleCalculator.addNumbers(a,b);
         Integer result1 = SimpleCalculator.multiplyNumbers(a,b);
         Integer result2 = SimpleCalculator.subtraction(a,b);
-    }
+
 }
