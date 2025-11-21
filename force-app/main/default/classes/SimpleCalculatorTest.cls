@@ -9,3 +9,4 @@ public class SimpleCalculatorTest {
         Integer result2 = SimpleCalculator.subtraction(a,b);
 
 }
+}
