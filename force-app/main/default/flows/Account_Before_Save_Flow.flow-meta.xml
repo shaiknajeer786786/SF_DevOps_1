@@ -17,7 +17,7 @@
     </assignments>
     <assignments>
         <name>Assign_Account_Name</name>
-        <label>Assign Account Name</label>
+        <label>Assign Account Name label changed</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <assignmentItems>
