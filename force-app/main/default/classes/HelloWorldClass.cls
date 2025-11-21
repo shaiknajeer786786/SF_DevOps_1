@@ -7,4 +7,8 @@ public class HelloWorldClass {
         
         return a + b;
     }
+    public static string sayHi(String Name){
+        return 'Hi, '+ name + '!';
+        
+    }
 }
