@@ -6,7 +6,7 @@ public class HelloWorldClass_Test {
         Integer b= 7;
         string result = HelloWorldClass.sayHello('Jyothi');
         string result2 = HelloWorldClass.sayHi('Jyothi');
-        Integer result1 = HelloWorldClass.addNumbers(a,b);
+       // Integer result1 = HelloWorldClass.addNumbers(a,b);
     }
 
 }
