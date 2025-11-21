@@ -8,5 +8,11 @@ public class SimpleCalculatorTest {
         Integer result1 = SimpleCalculator.multiplyNumbers(a,b);
         Integer result2 = SimpleCalculator.subtraction(a,b);
 
+         Integer result3 = SimpleCalculator.division(a,b);
+    }
+}
+
+
 }
 }
+
